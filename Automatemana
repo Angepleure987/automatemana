@@ -1,0 +1,100 @@
+import requests
+import json
+
+# Modifiez l'URL ci-dessous avec l'URL du canal Telegram contenant le signal de trading
+url = 
+url =
+
+url
+'https://api.telegram.org/botTOKEN/getUpdates'
+
+# Envoyez une requête GET à l'URL pour récupérer les mises à jour du canal Telegram
+response = requests.get(url)
+
+
+response = requests.get(url)
+
+response = requests.get(
+
+response = requests.get
+
+response = requests.
+
+response = requests
+
+response =
+
+response
+# Chargez les données de la réponse en tant que dictionnaire
+data = response.json()
+
+
+data = response.json()
+
+data = response.json
+
+data = response.
+
+data = response
+# Parcourez chaque entrée dans la liste 'result' du dictionnaire
+for entry in data['result']:
+  
+ 
+# Si l'entrée contient un message de texte
+  
+ 
+if 'text' in entry['message']:
+    
+   
+# Affichez le message de texte sur la console
+    
+   
+print(entry['message']['text'])
+
+    
+
+   
+
+
+# Si le message de texte correspond au signal de trading que vous souhaitez suivre
+    
+   
+if entry['message']['text'] == 'Signal de trading à suivre':
+      # Récupérez les détails du signal de trading (paire de devises, direction, stop loss, etc.)
+      
+     
+# et envoyez une commande correspondante à MetaTrader 4 via l'API MQL4
+      
+     
+# Vous devrez peut-être utiliser une autre méthode (par exemple, l'API MetaTrader 5 ou une autre API de courtage)
+      
+     
+# pour envoyer la commande à votre plateforme de trading
+      send_trading_command_to_mt4()
+
+      send_trading_command_to_mt4()
+``
+
+      send_trading_command_to_mt4()
+
+      send_trading_command_to_mt4
+
+      send_trading_command_to_mt
+
+      send_trading_command_to_
+
+      send_trading_command_to
+
+      send_trading_command_
+
+      send_trading_command
+
+      send_trading_
+
+      send_trading
+
+      send_tr
+
+      send_
+
+      send
